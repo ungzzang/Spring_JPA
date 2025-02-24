@@ -14,7 +14,7 @@ public class School extends CreatedAt{
     private Long schoolId;
 
     @Column(nullable = false)
-    @Convert(converter = SchoolTypeCode.CodeConverter.class)
+    //@Convert(converter = SchoolTypeCode.CodeConverter.class)
     private SchoolTypeCode schoolTypeCode;
 
     @Column(length = 50, nullable = false)
